@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Tejas Narula</title>
+</head>
+<body>
+    <nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="contact-us">Contact Us</a></li>
+        </ul>
+
+        <div class="logo">
+            <h4>Tejas Narula</h4>
+        </div>
+    </nav>
+    <h1>form</h1>
+    <form action="https://formsubmit.co/tejasnarula09@gmail.com" method="POST">
+        <input type="text" name="name" required>
+        <input type="email" name="email" required>
+        <input type="text" name="message" required>
+        <button type="submit">Send</button>
+        <input type="hidden" name="_next" value="https://tejas-narula.web.app/">
+        <input type="hidden" name="_subject" value="Tejas Narula - Contact Us">
+        <input type="hidden" name="_template" value="table">
+
+   </form>
+
+    <script src="../app.js"></script>
+</body>
+</html>

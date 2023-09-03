@@ -1,0 +1,111 @@
+
+/* Main content styles */
+
+.content{
+    height: 78.5vh;
+}
+
+
+.intro{
+    margin-inline: 8px;
+    background-color: #181a1a;
+    padding-top: 22.5vh;
+    color: whitesmoke;
+    display: flex;
+    /* position: absolute; */
+    /* top: 30%; */
+    position: relative;
+    padding-bottom: 2.5vh;
+    /* height: 40vh; */
+    /* z-index: -1; */
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.intro-text *{
+    max-width: 600px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+.intro-text h3{
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+
+.intro-text h1{
+    font-weight: bold;
+    font-size: 4em;
+    line-height: 1em;
+    margin-bottom: 5px;
+}
+
+.intro-text h6{
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.scroll-down{
+    font-style: italic;
+    color: rgb(208, 170, 208);
+    cursor: pointer;
+}
+
+.profile{
+    transform: translateY(-15%);
+}
+
+.profile img{
+    width: 350px;
+}
+
+@media screen and (max-width:760px){
+    /* re-sizing content */
+    .profile img{
+        width: 300px;
+    }
+}
+
+
+
+
+@media screen and (max-width:620px) {
+    .content{
+        font-size: small;
+        flex-direction: row;
+    }
+    .profile img{
+        width: 200px;
+    }
+    .profile{
+        transform: translate(0);
+        position: relative;
+        left: 30%;
+    }
+    .intro{
+        line-height: 1.3em;
+        display: block;
+    }
+    .intro-text{
+        width: 100%;
+    }
+
+    .intro-text h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    .intro-text h3{
+        position: absolute;
+        left: 35%;
+        top: -5%;
+        font-size: 22px;
+        transform: translateY(-5px);
+    }
+    .intro-text h6 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    
+}

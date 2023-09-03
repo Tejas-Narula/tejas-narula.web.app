@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="/main.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<div id="nav-placeholder"><script>$(function(){$("#nav-placeholder").load("/nav.html");});</script></div>
+
+<div id="footer-placeholder"><script>$(function(){$("#footer-placeholder").load("/footer.html");});</script></div>
+
